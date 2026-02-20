@@ -1,7 +1,8 @@
 
 import './App.css'
 import DiaDaSemana from './components/DiaDaSemana';
-
+import Paridade from './components/paridade'
+import Notas from './components/Notas'
 
 function App() {
  
@@ -10,7 +11,9 @@ function App() {
 
     <>
 <h1>01-componentes</h1>
-<DiaDaSemana/>
+<Paridade/>
+<Notas/>
+
     </>
 
   )
